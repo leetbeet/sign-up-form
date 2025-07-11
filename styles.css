@@ -52,8 +52,33 @@ a {
   isolation: isolate;
 }
 
-div {
+.input-set {
     display: flex;
+    gap: 80px;
+    padding-bottom: 24px;
+}
+
+fieldset {
+    padding-left: 4vh;
+}
+
+h1 {
+    padding: 16px 0px;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+}
+
+#hero {
+    padding: 16vh 4vh 6vh;
+}
+
+fieldset {
+    background-color: white;
+    border: none;
+    box-shadow: 0 4px 8px lightgrey;
 }
 
 #green-leaf {
@@ -101,4 +126,25 @@ div {
 #right {
     background-color: #fafafa;
     width: 100%;
+}
+
+.btn {
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 12px 64px;
+    margin: 36px 0 0 4vh;
+    background-color: #596D48;
+}
+
+#bottom-text {
+    margin: 24px 4vh;
+}
+
+#log-in {
+    text-decoration: none;
+    color: #596D48;
+    font-weight: 700;
 }
