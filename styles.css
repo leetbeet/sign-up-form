@@ -6,6 +6,11 @@
   margin: 0;
 }
 
+@font-face {
+  font-family: 'Norse';
+  src: url('fonts/Norse-Bold.otf') format('opentype');
+}
+
 @media (prefers-reduced-motion: no-preference) {
   html {
     interpolate-size: allow-keywords;
@@ -57,7 +62,7 @@ div {
 }
 
 #odin {
-    width: 25%;
+    width: 20%;
 }
 
 #odin-container {
@@ -65,12 +70,13 @@ div {
     align-items: center;
     justify-content: center;
     position: absolute;
-    font-size: 48px;
     color: white;
     padding: 12px 0;
     top: 20vh;
     background-color: rgba(0, 0, 0, 0.5);
     width: 100%;
+    font-family: "Norse";
+    font-size: 86px;
 }
 
 #credit {
